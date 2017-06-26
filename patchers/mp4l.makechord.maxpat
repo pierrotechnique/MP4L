@@ -47,7 +47,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 30.0, 30.0, 30.0 ],
+					"patching_rect" : [ 381.0, 30.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -73,9 +73,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 318.0, 78.0, 77.0, 22.0 ],
+					"patching_rect" : [ 313.0, 78.0, 87.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.block.init"
+					"text" : "mp4l.block.init"
 				}
 
 			}

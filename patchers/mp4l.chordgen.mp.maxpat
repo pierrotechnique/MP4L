@@ -378,6 +378,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 309.966675, 702.8125, 37.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 3"
 				}
@@ -430,7 +434,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -648,36 +651,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-50",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 243.716675, 14.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : "Depth"
-					}
-,
-					"style" : "",
-					"text" : "in 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 142.68335, 14.0, 30.0, 22.0 ],
-					"style" : "",
-					"text" : "in 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-45",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -696,13 +669,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 293.64447, 14.0, 30.0, 22.0 ],
+					"patching_rect" : [ 304.14447, 14.0, 30.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : "Size"
+						"attr_comment" : ""
 					}
 ,
 					"style" : "",
-					"text" : "in 4"
+					"text" : "in 2"
 				}
 
 			}
@@ -921,10 +894,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 456.966675, 702.8125, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out 5"
 				}
@@ -1113,10 +1082,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 14.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 1"
 				}

@@ -2653,7 +2653,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 477.0, 134.0, 279.0, 22.0 ],
+					"patching_rect" : [ 465.0, 134.0, 279.0, 22.0 ],
 					"style" : "",
 					"text" : "pitchcntrl_sel 1, pitchcntrl_int 5, pitchcntrl_dpth 0.5"
 				}
@@ -3523,6 +3523,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-10",
@@ -3596,9 +3597,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 81.5, 65.0, 75.0, 22.0 ],
+									"patching_rect" : [ 81.5, 65.0, 63.0, 22.0 ],
 									"style" : "",
-									"text" : "route voices"
+									"text" : "route poly"
 								}
 
 							}
@@ -3664,7 +3665,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 36.5, 22.0, 30.0, 30.0 ],
+									"patching_rect" : [ 26.0, 22.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -3672,7 +3673,7 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 1 ],
+									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -3707,7 +3708,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
+									"destination" : [ "obj-4", 1 ],
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -3834,9 +3835,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 419.0, 94.0, 77.0, 22.0 ],
+					"patching_rect" : [ 414.0, 94.0, 87.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.block.init"
+					"text" : "mp4l.block.init"
 				}
 
 			}
@@ -3901,7 +3902,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 477.0, 46.0, 30.0, 30.0 ],
+					"patching_rect" : [ 482.0, 46.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -3916,7 +3917,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 44.0, 498.0, 260.0, 22.0 ],
+					"patching_rect" : [ 44.0, 498.0, 266.0, 22.0 ],
 					"style" : "",
 					"text" : "poly~ mp4l.chordgen.p 1 args #0.mpContext",
 					"textcolor" : [ 0.862745, 0.741176, 0.137255, 1.0 ]
@@ -3962,7 +3963,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 361.0, 46.0, 30.0, 30.0 ],
+					"patching_rect" : [ 351.0, 46.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -4329,6 +4330,16 @@
 				"patchline" : 				{
 					"color" : [ 0.862745, 0.741176, 0.137255, 0.9 ],
 					"destination" : [ "obj-24", 0 ],
+					"order" : 1,
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.862745, 0.741176, 0.137255, 0.9 ],
+					"destination" : [ "obj-8", 0 ],
+					"order" : 0,
 					"source" : [ "obj-52", 0 ]
 				}
 
@@ -4433,6 +4444,7 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.862745, 0.741176, 0.137255, 0.9 ],
 					"destination" : [ "obj-9", 2 ],
 					"source" : [ "obj-7", 0 ]
 				}
@@ -4449,14 +4461,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
-					"order" : 0,
-					"source" : [ "obj-9", 1 ]
+					"order" : 1,
+					"source" : [ "obj-9", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.862745, 0.741176, 0.137255, 0.9 ],
 					"destination" : [ "obj-22", 0 ],
+					"order" : 0,
 					"source" : [ "obj-9", 2 ]
 				}
 
@@ -4471,7 +4485,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
-					"order" : 1,
 					"source" : [ "obj-9", 1 ]
 				}
 

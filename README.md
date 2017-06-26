@@ -4,12 +4,10 @@ This library contains the building blocks for the MP4L modular polyphonic synthe
 
 This code is under GNU-LGPL licence which can be read in the LICENSE file.
 
-This is entirely under construction for the moment so use and explore at your own risk. The final product will be encapsulated in the MP4L.amxd Max for Live device.
+This is entirely under construction for the moment so use and explore at your own risk. The final product(s) will be encapsulated and distributed in a Max for Live device.
 
 ## Usage
-Download or clone this repository and put it in your Max package folder.
-
-Open /examples/mp4l.chordgenPush.maxpat for a first look at a functional module (set up for a Push at the moment, more control options coming soon).
+Download or clone this repository and put it in your Max package folder, then start messing around with the different modules in a Max for Live Instrument device. Basic use examples coming soon…
 
 ## Credits
 

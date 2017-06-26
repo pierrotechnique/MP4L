@@ -138,6 +138,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-10",
@@ -211,9 +212,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 81.5, 65.0, 75.0, 22.0 ],
+									"patching_rect" : [ 81.5, 65.0, 63.0, 22.0 ],
 									"style" : "",
-									"text" : "route voices"
+									"text" : "route poly"
 								}
 
 							}
@@ -447,9 +448,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 276.0, 71.0, 77.0, 22.0 ],
+					"patching_rect" : [ 276.0, 71.0, 87.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.block.init"
+					"text" : "mp4l.block.init"
 				}
 
 			}
@@ -460,7 +461,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 250.0, 30.0, 74.0, 22.0 ],
+					"patching_rect" : [ 255.0, 30.0, 74.0, 22.0 ],
 					"style" : "",
 					"text" : "patcherargs"
 				}
@@ -475,7 +476,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 334.0, 22.0, 30.0, 30.0 ],
+					"patching_rect" : [ 344.0, 22.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -571,7 +572,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
 					"order" : 0,
-					"source" : [ "obj-5", 1 ]
+					"source" : [ "obj-5", 2 ]
 				}
 
 			}
@@ -585,7 +586,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"order" : 1,
 					"source" : [ "obj-5", 1 ]
 				}
 
@@ -593,6 +593,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
+					"order" : 1,
 					"source" : [ "obj-5", 2 ]
 				}
 

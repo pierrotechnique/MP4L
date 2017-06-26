@@ -128,9 +128,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 339.0, 68.0, 77.0, 22.0 ],
+					"patching_rect" : [ 339.0, 68.0, 87.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.block.init"
+					"text" : "mp4l.block.init"
 				}
 
 			}
