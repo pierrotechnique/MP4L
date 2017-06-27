@@ -3523,7 +3523,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-10",
@@ -3917,7 +3916,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 44.0, 498.0, 266.0, 22.0 ],
+					"patching_rect" : [ 44.0, 498.0, 260.0, 22.0 ],
 					"style" : "",
 					"text" : "poly~ mp4l.chordgen.p 1 args #0.mpContext",
 					"textcolor" : [ 0.862745, 0.741176, 0.137255, 1.0 ]
